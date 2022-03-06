@@ -32,7 +32,23 @@ export function ShoppingCartProvider({children}: ShoppingCartProviderProps){
         return cartItems.find(item => item.id === id) ?. quantity || 0
     }
 
-    return <ShoppingCartContext.Provider value={{getItemQuantity}}>
+    function increaseCartQuantity(id: number){
+        setCartItems(currItems => {
+            if(currItems.find(item => item.id === id) == null){
+                return [...currItems, {id, quantity: 1}]
+            }else{
+                return currItems.map(item=>{
+                    if(item.id === id){
+                        return {...item, quantity: item.quantity + 1}
+                    }else{
+                        return item
+                    }
+                })  
+            }
+        })
+    }
+
+    return <ShoppingCartContext.Provider value={{getItemQuantity, increaseCartQuantity}}>
         {children}
     </ShoppingCartContext.Provider> 
 }
