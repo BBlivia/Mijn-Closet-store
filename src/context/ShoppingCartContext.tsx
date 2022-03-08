@@ -64,7 +64,18 @@ export function ShoppingCartProvider({children}: ShoppingCartProviderProps){
         })
     }
 
-    return <ShoppingCartContext.Provider value={{getItemQuantity, increaseCartQuantity, decreaseCartQuantity}}>
+    function removeFromCart(id:number){
+        setCartItems(currItems =>{
+            return currItems.filter(item => item.id !== id)
+        })
+    }
+
+    return <ShoppingCartContext.Provider
+     value={{
+        getItemQuantity, 
+        increaseCartQuantity,
+         decreaseCartQuantity,
+          removeFromCart}}>
         {children}
     </ShoppingCartContext.Provider> 
 }
