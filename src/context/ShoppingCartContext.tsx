@@ -8,6 +8,9 @@ type CartItem = {
     quantity:number
 }
 type ShoppingCartContext ={
+    openCart: () => void 
+    closedCart:() => void 
+    cartQuantity: () => number
     getItemQuantity:(id: number) => number
     increaseCartQuantity: (id: number) => void
     decreaseCartQuantity: (id: number)=> void
