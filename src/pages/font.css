@@ -1,0 +1,12 @@
+.font-link{
+    font-family: 'Courgette', cursive;
+   
+    
+    color: rgb(214, 133, 133);
+    font-weight: 500;
+    margin-left: 3%;
+    margin-top: 50px;
+    writing-mode:vertical-rl;
+    text-orientation: upright
+    
+}

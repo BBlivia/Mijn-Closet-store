@@ -4,6 +4,8 @@
         "name": "Book",
         "price": 10.99,
         "imgUrl" : "/imgs/Book.jpeg"
+       
+        
     },
     {
         "id":2,
@@ -22,5 +24,30 @@
         "name": "Water",
         "price": 10.99,
         "imgUrl" : "/imgs/Water.png"
+    },
+    {
+        "id":5,
+        "name": "Book",
+        "price": 10.99,
+        "imgUrl" : "/imgs/Book.jpeg"
+       
+        
+    },
+    {
+        "id":6,
+        "name": "Book",
+        "price": 10.99,
+        "imgUrl" : "/imgs/Book.jpeg"
+       
+        
+    },
+    {
+        "id":7,
+        "name": "Book",
+        "price": 10.99,
+        "imgUrl" : "/imgs/Book.jpeg"
+       
+        
     }
+    
 ]
