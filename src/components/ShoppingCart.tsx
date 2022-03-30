@@ -1,4 +1,4 @@
-import { NavItem, Offcanvas, Stack } from "react-bootstrap";
+import { Button, NavItem, Offcanvas, Stack } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { formatCurrency } from "../utility/formatCurreny";
 import { CartItem } from "./CartItem"
@@ -29,6 +29,7 @@ export function ShoppingCart({isOpen}: ShoppingCartProps){
                     )}
                  </div>
             </Stack>
+            <Button variant="success">checkout</Button>
         </Offcanvas.Body>
     </Offcanvas>
     )
