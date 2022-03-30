@@ -1,53 +1,71 @@
 [
     {
         "id":1,
-        "name": "Book",
+        "name": "black cut-out crop top (s)",
         "price": 10.99,
-        "imgUrl" : "/imgs/Book.jpeg"
+        "imgUrl" : "/imgs/re.png"
        
         
     },
     {
         "id":2,
-        "name": "Computer",
+        "name": "black sleeve-less crop (s)",
         "price": 10.99,
-        "imgUrl" : "/imgs/Computer.jpeg"
+        "imgUrl" : "/imgs/21.png"
     },
     {
         "id":3,
-        "name": "Banana",
+        "name": "tan flair skirt (s)",
         "price": 10.99,
-        "imgUrl" : "/imgs/Banana.jpeg"
+        "imgUrl" : "/imgs/4.png"
     },
     {
         "id":4,
-        "name": "Water",
+        "name": "blue jacket (m)",
         "price": 10.99,
-        "imgUrl" : "/imgs/Water.png"
+        "imgUrl" : "/imgs/31.png"
     },
     {
         "id":5,
-        "name": "Book",
+        "name": "green leather bodysuit",
         "price": 10.99,
-        "imgUrl" : "/imgs/Book.jpeg"
+        "imgUrl" : "/imgs/51.png"
        
         
     },
     {
         "id":6,
-        "name": "Book",
+        "name": "animal print top",
         "price": 10.99,
-        "imgUrl" : "/imgs/Book.jpeg"
+        "imgUrl" : "/imgs/61.png"
        
         
     },
     {
         "id":7,
-        "name": "Book",
+        "name": "plain white crop",
         "price": 10.99,
-        "imgUrl" : "/imgs/Book.jpeg"
+        "imgUrl" : "/imgs/71.png"
+       
+        
+    },
+    {
+        "id":8,
+        "name": "white body-con crop (s)",
+        "price": 10.99,
+        "imgUrl" : "/imgs/44.png"
+       
+        
+    },
+    {
+        "id":9,
+        "name": "gold backless crop (s)",
+        "price": 10.99,
+        "imgUrl" : "/imgs/67.png"
        
         
     }
+    
+    
     
 ]
