@@ -1,67 +1,67 @@
 [
     {
         "id":1,
-        "name": "black cut-out crop top (s)",
+        "name": "Huckleberry Vanilla",
         "price": 10.99,
-        "imgUrl" : "/imgs/re.png"
+        "imgUrl" : "/imgs/purplc.webp"
        
         
     },
     {
         "id":2,
-        "name": "black sleeve-less crop (s)",
+        "name": "Copal Wood",
         "price": 10.99,
-        "imgUrl" : "/imgs/21.png"
+        "imgUrl" : "/imgs/cf.webp"
     },
     {
         "id":3,
-        "name": "tan flair skirt (s)",
+        "name": "Crushed Candy Cane",
         "price": 10.99,
-        "imgUrl" : "/imgs/4.png"
+        "imgUrl" : "/imgs/redc.webp"
     },
     {
         "id":4,
-        "name": "blue jacket (m)",
+        "name": "Baltic Amber",
         "price": 10.99,
-        "imgUrl" : "/imgs/31.png"
+        "imgUrl" : "/imgs/yellowc.webp"
     },
     {
         "id":5,
-        "name": "green leather bodysuit",
+        "name": "Bergamot Rose",
         "price": 10.99,
-        "imgUrl" : "/imgs/51.png"
+        "imgUrl" : "/imgs/white.webp"
        
         
     },
     {
         "id":6,
-        "name": "animal print top",
+        "name": "Cameo Rose",
         "price": 10.99,
-        "imgUrl" : "/imgs/61.png"
+        "imgUrl" : "/imgs/ca.webp"
        
         
     },
     {
         "id":7,
-        "name": "plain white crop",
+        "name": "Panjore Lychee",
         "price": 10.99,
-        "imgUrl" : "/imgs/71.png"
+        "imgUrl" : "/imgs/pinkc.webp"
        
         
     },
     {
         "id":8,
-        "name": "white body-con crop (s)",
+        "name": "Merry Bright Citrus",
         "price": 10.99,
-        "imgUrl" : "/imgs/44.png"
+        "imgUrl" : "/imgs/s.png"
        
         
     },
     {
         "id":9,
-        "name": "gold backless crop (s)",
+        "name": "Forest Wood Vanilla",
         "price": 10.99,
-        "imgUrl" : "/imgs/67.png"
+        "imgUrl" : "/imgs/forest.webp"
        
         
     }
